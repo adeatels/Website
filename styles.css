@@ -1,0 +1,539 @@
+html, body, head {
+    overflow-x: hidden;
+    --bs-body-font-family: 'Syne Mono', monospace;
+    background-color: black;
+    background-image: url(backround.png);
+    background-size: 80vw;
+}
+.marq{
+    color:#d94c0b;
+    font-size: 3vw;
+    background-color: #0B0A20;
+
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 11ch;
+    animation: typing 2s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+
+    font-family: monospace;
+    font-size: 3vw;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+a{
+    color: black;
+}
+.bg{
+    background-color: black;
+}
+.os{
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    left: 94vw;
+}
+.twitter{
+    height: 5vw;
+    width: 5vw;
+    position: relative;
+    left: 84vw;
+}
+.boxed{
+    background-color: black;
+    max-width: 90vw;
+    height: 350px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5vw;
+}
+.btn1{
+    background-color: #d94c0b;
+    height: 5vw;
+    width: 25vw;
+    position: relative;
+    top: 8vw;
+    left: 24vw;
+    text-align: center;
+}
+.btn2{
+    background-color: #d94c0b;
+    height: 5vw;
+    width: 40vw;
+    position: relative;
+    top: 8vw;
+    left: 20vw;
+}
+.btn3{
+    text-align: center;
+    color: #d94c0b;
+    position: relative;
+    font-size: 3vw;
+    top: 16vw;
+}
+.btn4{
+    text-align: center;
+    color: #d94c0b;
+    position: relative;
+    font-size: 3vw;
+    top: 4vw;
+}
+.btn5{
+    text-align: center;
+    color: #d94c0b;
+    font-size: 3vw;
+    position: relative;
+    top: -5vw;
+    left: 0vw;
+}
+.btn6{
+    text-align: center;
+    color: #d94c0b;
+    position: relative;
+    font-size: 3vw;
+    top: -50vw;
+    left: 3vw;
+}
+.btn7{
+    background-color: black;
+}
+
+.nft-art-gen-section button, .nft-art-gen-section select{
+    position: relative;
+    left: 50vw;
+    top: 3vw;
+    color: white;
+    background-color: #d94c0b;
+    height: 5vw;
+    text-align: center;
+    border-radius: 50vw;
+    font-size: 2vw;
+}
+.text1{
+    text-align: center;
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+    color: #FFFDD0;
+}
+.text2{
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    top: 0.3vw;
+    color: white;
+}
+.text3{
+    color: #d94c0b;
+    text-align: center;
+    position: relative;
+    top: 6vw;
+}
+.text4{
+    color: #FFFDD0;
+    position: relative;
+    padding-bottom: 5vw;
+    font-size: 2vw;
+}
+.text5{
+    color: #FFFDD0;
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+}
+.text6{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 2vw;
+}
+.text7{
+    color: white;
+    position: relative;
+    left: -26vw;
+    top: -5.5in;
+    transform: rotate(-90deg);
+}
+.text8{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    width: 60vw;
+    top: 0vw;
+    text-align: center;
+    left: 30vw;
+}
+.text9{
+    color: #FFFDD0;
+    position: relative;
+    width: 60vw;
+    font-size: 1.4vw;
+    text-align: center;
+    top: 7vw;
+    left: 10vw;
+    text-indent: 3vw;
+}
+.text10{
+    color: #FFFDD0;
+    position: relative;
+    width: 60vw;
+    font-size: 1.4vw;
+    text-align: center;
+    left: 30vw;
+    top: 12vw;
+}
+.text11{
+    color: #FFFDD0;
+    position: relative;
+    width: 60vw;
+    font-size: 1.4vw;
+    text-align: center;
+    left: 10vw;
+    top: 17vw;
+}
+.text12{
+    color: #FFFDD0;
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+    top: 40vw;
+}
+.text13{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    text-align: center;
+    background-color: #0B0A20;
+    width: 60vw;
+    left: 7vw;
+
+    
+}
+.text14{
+    color: white;
+    position: relative;
+}
+.text15{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    width: 45vw;
+    top: -10vw;
+    left: -28vw;
+
+}
+.text16{
+    color: #FFFDD0;
+    position: relative;
+    text-align: center;
+    font-size: 1.4vw;
+    top: -25vw;
+}
+.text17{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    text-align: center;
+    left: -50vw;
+    top: -40vw;
+}
+.text18{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    top: -28vw;
+}
+.text19{
+    color: #FFFDD0;
+    position: relative;
+    font-size: 1.4vw;
+    width: 40vw;
+    text-align: center;
+    left: 6vw;
+    top: -40vw;
+}
+.text20{
+    color: #FFFDD0;
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    top: -73vw;
+    left: 2vw;
+}
+.text21{
+    color: #FFFDD0;
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    width: 40vw;
+    left: 7vw;
+    top: -70vw;
+}
+.text22{
+    color: #FFFDD0;
+    text-align: center;
+    position: relative;
+    font-size: 3vw;
+    top: -50vw;
+}
+.text23{
+    color: #d94c0b;
+    position: relative;
+    top: -5vw;
+    font-size: 3vw;
+}
+.text24{
+    color: #FFFDD0;
+    position: relative;
+    top: -5vw;
+}
+.text25{
+    color: #FFFDD0;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 5vw;
+    position: relative;
+    top: -75vw;
+}
+.text26{
+    color: #FFFDD0;
+    text-align: center;
+    position: relative;
+    font-size: 3vw;
+    top: -75vw;
+}
+.text27{
+    font-size: 1.4vw;
+    padding: 5vw;
+}
+.slide1{
+    position: relative;
+    top: 15vw;
+    left: 10vw;
+    height: 34.7vw;
+    width: 34.7vw;
+}
+img{
+    width: 100vw;
+}
+.img1{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 10vw;
+    top: 12vw;
+}
+.img2{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 78vw;
+    top: 18vw;
+}
+.img3{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    top: 24vw;
+    left: 8vw;
+}
+.img4{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 78vw;
+    top: 28vw;
+}
+.img5{
+    height: 16vw;
+    width: 35vw;
+    position: relative;
+    left: -50vw;
+    top: 10vw;
+}
+.img6{
+    height: 23vw;
+    width: 46vw;
+    position: relative;
+    left: 50vw;
+    top: 15vw;
+}
+.img7{
+    height: 30vw;
+    width: 35vw;
+    position: relative;
+    left: -50vw;
+    top: 25vw;
+}
+.img8{
+    height: 23vw;
+    width: 46vw;
+    position: relative;
+    left: 45vw;
+    top: 22vw;
+}
+.img9{
+    height: 23vw;
+    width: 46vw;
+    position: relative;
+    left: -48vw;
+    top: -8vw;
+}
+.img10{
+    height: 23vw;
+    width: 46vw;
+    position: relative;
+    left: 51vw;
+    top: -18vw;
+}
+.img11{
+    width: 46vw;
+    height: 23vw;
+    position: relative;
+    left: -50vw;
+    top: -56vw;
+}
+.img12{
+    width: 46vw;
+    height: 23vw;
+    position: relative;
+    left: 50vw;
+    top: -50vw;
+}
+.img13{
+    border-radius: 50vw;
+    height: 42vw;
+    width: 42vw;
+    position: relative;
+    top: 22vw;
+    left: -50vw;
+}
+.img14{
+    border-radius: 50vw;
+    height: 42vw;
+    width: 42vw;
+    position: relative;
+    right: -50vw;
+    top: 25vw;
+}
+.img15{
+    border-radius: 50vw;
+    height: 42vw;
+    width: 42vw;
+    position: relative;
+    top: 25vw;
+    left: -50vw;
+}
+.img16{
+    border-radius: 50vw;
+    height: 42vw;
+    width: 42vw;
+    position: relative;
+    right: -50vw;
+    top: 25vw;
+}
+.img17{
+    position: relative;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: -75vw;
+}
+.img18{
+    position: relative;
+    border-radius: 50vw;
+    height: 42vw;
+    width: 42vw;
+    top: 25vw;
+    left: 50vw;
+}
+.figure1{
+    position: relative;
+    left: 1000px;
+    top: 0;
+}
+.display1{
+    color: white;
+    display: none;
+    display: block;
+}
+.big1{
+    position: relative;
+    top: 37vw;
+    text-align: center;
+    left: 31vw;
+    width: 75vw;
+}
+.little{
+    text-align: center;
+    position: relative;
+    width: 40vw;
+    left: 55vw;
+    top: -15vw;
+}
+.little1{
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    left: 55vw;
+    top: 31vw;
+}
+.little2{
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    left: 54vw;
+    top: 3vw;
+}
+.little3{
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    left: 52vw;
+    top: 18vw;
+}
+.codybio{
+    text-align: center;
+    position: relative;
+    font-size: 2vw;
+    width: 40vw;
+    left: 55vw;
+    top: -60vw;
+}
+.alexbio{
+    text-align: center;
+    position: relative;
+    font-size: 2vw;
+    width: 40vw;
+    left: 5vw;
+    top: -75vw;
+}
+.ericbio{
+    text-align: center;
+    position: relative;
+    font-size: 2vw;
+    width: 40vw;
+    left: 55vw;
+    top: -90vw;
+}
+.nickbio{
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    width: 40vw;
+    left: 5vw;
+    top: -110vw;
+}
